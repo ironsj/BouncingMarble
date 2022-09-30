@@ -1,6 +1,6 @@
 # BouncingMarble
 
-Compile the program by specifiying the curses library. For example: 'gcc marblec.c -o marble -lcurses'. To run the program type './marble' followed by the number of desired rows, the number of desired columns, a number between -2 and 2, inclusive (the speed in the x direction), and a number between -2 and 2, inclusive (the speed in the y direction). For example, './marble 4 4 -1 2' would split the terminal into boxes with 4 rows and 4 columns. The cursor would be sent slowly to the left and quickly downwards (y increases as the cursor moves down in the terminal). As the cursor bounces around the terminal, you will be able to see the number of times it has entered each box. Press 'Ctrl-C' to end the program.
+Compile the program by specifiying the curses library. For example: `gcc marblec.c -o marble -lcurses`. To run the program type `./marble` followed by the number of desired rows, the number of desired columns, a number between -2 and 2, inclusive (the speed in the x direction), and a number between -2 and 2, inclusive (the speed in the y direction). For example, `./marble 4 4 -1 2` would split the terminal into boxes with 4 rows and 4 columns. The cursor would be sent slowly to the left and quickly downwards (y increases as the cursor moves down in the terminal). As the cursor bounces around the terminal, you will be able to see the number of times it has entered each box. Press *Ctrl-C* to end the program.
 
 ### Update (7/11/2022)
 
